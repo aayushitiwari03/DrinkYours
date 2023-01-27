@@ -11,7 +11,7 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        val img:ImageView=findViewById(R.id.image)
+        val img:ImageView=findViewById(R.id.imageColdinks)
         val txt:TextView=findViewById(R.id.txt)
 
         img.alpha=0f
