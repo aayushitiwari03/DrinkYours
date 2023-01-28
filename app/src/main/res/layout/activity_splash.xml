@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity">
+    android:background="@drawable/color"
+    tools:context=".Intro.SplashActivity">
 
     <ImageView
         android:id="@+id/imageColdinks"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:src="@drawable/splash_logo"
+        android:src="@drawable/splashimage"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,7 +24,7 @@
         android:fontFamily="serif"
         android:gravity="center"
         android:text="DrinkYours"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -39,7 +40,7 @@
         android:layout_marginTop="8sp"
         android:fontFamily="serif"
         android:text="The Drink is Yours"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt" />

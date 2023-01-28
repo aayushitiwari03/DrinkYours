@@ -10,4 +10,5 @@
     <color name="startColor">#000000</color>
     <color name="centerColor">#000000</color>
     <color name="endColor">#000000</color>
+    <color name="blue">#7BCEFF</color>
 </resources>
