@@ -96,7 +96,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_below="@id/etconfirm"
-        android:text="SignUp"
+        android:text="Register"
         android:textAllCaps="false"
         android:background="@drawable/button2"
         android:layout_marginLeft="10dp"
@@ -105,6 +105,65 @@
         android:layout_marginRight="10dp"
         android:padding="10dp"
         />
-
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnregister"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnregister"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/txt"
+        android:layout_marginLeft="150dp"/>
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt3"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/txt1"
+        android:layout_marginLeft="150dp"/>
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt4"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/txt2"
+        android:layout_marginLeft="150dp"/>
+    <Button
+        android:id="@+id/btnregistsave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt5"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold|normal"
+        android:textColor="#726d67"
+        android:layout_marginRight="10dp"
+        />
 
 </RelativeLayout>

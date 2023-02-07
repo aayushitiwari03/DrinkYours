@@ -5,14 +5,14 @@
         android:id="@+id/home"
         android:icon="@drawable/ic_baseline_home_24"
         android:title="Home"/>
-    <item
-        android:id="@+id/search"
-        android:icon="@drawable/ic_baseline_search_24"
-        android:title="Search"/>
-    <item
-        android:id="@+id/tutorial"
-        android:icon="@drawable/ic_baseline_play_circle_outline_24"
-        android:title="Tutorial"/>
+<!--    <item-->
+<!--        android:id="@+id/search"-->
+<!--        android:icon="@drawable/ic_baseline_search_24"-->
+<!--        android:title="Search"/>-->
+<!--    <item-->
+<!--        android:id="@+id/tutorial"-->
+<!--        android:icon="@drawable/ic_baseline_play_circle_outline_24"-->
+<!--        android:title="Tutorial"/>-->
     <item
         android:id="@+id/saved"
         android:icon="@drawable/ic_baseline_bookmark_24"

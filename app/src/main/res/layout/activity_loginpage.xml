@@ -19,11 +19,11 @@
         android:id="@+id/etmobile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="E Mail"
+        android:hint="Mobile Number ( 10 Degits )"
         android:textColor="#726d67"
         android:padding="10dp"
         android:layout_below="@id/imagedrink"
-        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawableLeft="@drawable/ic_baseline_mobile_screen_share_24"
         android:background="@drawable/button"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="10dp"
@@ -67,14 +67,41 @@
         android:layout_marginTop="20dp"
         android:text="Forgot Password!"/>
     <TextView
+        android:id="@+id/txtstore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textStyle="bold|normal"
+        android:layout_below="@id/etforgot"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:id="@+id/txtstore1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textStyle="bold|normal"
+        android:layout_below="@id/txtstore"
+        />
+    <TextView
         android:id="@+id/txtdont"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/etforgot"
-        android:layout_marginTop="60dp"
+        android:layout_below="@id/txtstore1"
         android:textStyle="normal|bold"
+        android:layout_marginTop="10dp"
         android:text="Don't have an account?Sign up now"
         android:gravity="center"/>
-
+    <Button
+        android:id="@+id/btn_log_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtdont"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Save"
+        android:textAllCaps="false"/>
 
 </RelativeLayout>
