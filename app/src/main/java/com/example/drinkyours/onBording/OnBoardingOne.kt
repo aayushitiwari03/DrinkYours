@@ -20,7 +20,6 @@ class OnBoardingOne : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-
         next1.setOnClickListener {
             val intent=Intent(this,OnBordingTwo::class.java)
             startActivity(intent)

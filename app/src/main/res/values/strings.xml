@@ -1,10 +1,10 @@
+
 <resources>
     <string name="app_name">DrinkYours</string>
-    <string name="food">FRESH DRINK</string>
-    <string name="delivery">FAST DELIVERY</string>
-    <string name="payment">EASY PAYMENT</string>
-    <string name="skip">skip</string>
-    <string name="free">Free delivery is also available if your order get late ...</string>
-    <string name="finish">Finish</string>
-    <string name="delivey">Easy payment system in this you can use any way to pay money like Online, Cash on delivery and card also.</string>
+    <string name="next">Next</string>
+    <string name="home_screen_title">Welcome</string>
+    <string name="desc">Find Your Favourite Drink here and make your day..</string>
+    <string name="next2">Next</string>
+    <string name="skip1">Skip</string>
+    <string name="next3">Next</string>
 </resources>
